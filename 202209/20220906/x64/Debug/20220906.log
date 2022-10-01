@@ -1,0 +1,5 @@
+﻿  01.c
+  02.c
+C:\Users\74037\仓库\wck_c\wck_c\202209\20220906\02.c(18,2): warning C4098: “main”:“void”函数返回值
+  正在生成代码...
+  20220906.vcxproj -> C:\Users\74037\仓库\wck_c\wck_c\202209\x64\Debug\20220906.exe
