@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\74037\仓库\wck_c\wck_c\202209\20220923\main.c(22,2): warning C4013: “gets”未定义；假设外部返回 int
+C:\Users\74037\仓库\wck_c\wck_c\202209\20220923\main.c(23,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  20220923.vcxproj -> C:\Users\74037\仓库\wck_c\wck_c\202209\x64\Debug\20220923.exe
