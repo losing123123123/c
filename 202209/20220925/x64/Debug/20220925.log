@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\74037\仓库\wck_c\wck_c\202209\20220925\main.c(67,14): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  20220925.vcxproj -> C:\Users\74037\仓库\wck_c\wck_c\202209\x64\Debug\20220925.exe
