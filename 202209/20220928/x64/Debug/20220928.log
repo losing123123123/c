@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\74037\仓库\wck_c\wck_c\202209\20220928\main.c(8,1): warning C4047: “初始化”:“int *”与“int (*)[9]”的间接级别不同
+C:\Users\74037\仓库\wck_c\wck_c\202209\20220928\main.c(9,1): warning C4047: “初始化”:“int (*)[9]”与“int *”的间接级别不同
+  20220928.vcxproj -> C:\Users\74037\仓库\wck_c\wck_c\202209\x64\Debug\20220928.exe
