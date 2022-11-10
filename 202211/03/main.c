@@ -4,6 +4,13 @@
 int main()
 {
 
+	for ()
+	{
+		int n;
+	}
+	for ()
+	{
 
+	}
 	return 0;
 }
