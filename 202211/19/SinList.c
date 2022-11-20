@@ -61,5 +61,5 @@ void SListpushFront(SL** pphead, ListType input)
 }
 void SListpopFront(SL** pphead)
 {
-	  *pphead =  ( * (*pphead)).next;
+	  *pphead =  (*(*pphead)).next;
 }
