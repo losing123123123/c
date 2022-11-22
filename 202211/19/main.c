@@ -13,9 +13,9 @@ int main()
 	SListpushFront(&List, 3);
 	SListpushFront(&List, 4);
 
-	//SListpopBack(&List);
-	//SListpopBack(&List);
-	//SListpopBack(&List);
+	SListpopBack(&List);
+	SListpopBack(&List);
+	SListpopBack(&List);
 	SListpopFront(&List);
 	SListpopFront(&List);
 

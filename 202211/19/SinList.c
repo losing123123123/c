@@ -43,12 +43,26 @@ void PrintSList(SL *phead)
 
 void SListpopBack(SL** pphead)
 {
-	SL* temp = *pphead;
-	while ((*(temp->next)).next != NULL)
+	if (*pphead == NULL)
 	{
-		temp = temp->next;
+		return;
 	}
-	temp->next = NULL;
+	SL* temp = *pphead;
+	if (temp->next == NULL)
+	{
+		free(temp);
+		*pphead = NULL;
+	}
+	else 
+	{
+		while ((*(temp->next)).next != NULL)
+		{
+			temp = temp->next;
+		}
+		free(temp->next);
+		temp->next = NULL;
+	}
+	
 }
 void SListpushFront(SL** pphead, ListType input)
 {
@@ -61,5 +75,13 @@ void SListpushFront(SL** pphead, ListType input)
 }
 void SListpopFront(SL** pphead)
 {
-	  *pphead =  (*(*pphead)).next;
+	
+	SL* temp = *pphead;
+	if (temp == NULL)
+	{
+		return;
+	}
+	*pphead = temp->next;
+	free(temp);
+	temp = NULL;
 }
