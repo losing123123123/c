@@ -1,0 +1,4 @@
+﻿  text.c
+C:\Users\74037\仓库\wck_c\wck_c\202210\1027\text.c(46,1): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\74037\仓库\wck_c\wck_c\202210\1027\text.c(28): warning C4716: “text1”: 必须返回一个值
+  1027.vcxproj -> C:\Users\74037\仓库\wck_c\wck_c\202210\x64\Debug\1027.exe
