@@ -36,7 +36,7 @@ void PrintSList(SL *phead)
 {
 	while (phead)
 	{
-		printf("%d", phead->data);
+		printf("%d ", phead->data);
 		phead = phead->next;
 	}
 }
@@ -84,4 +84,36 @@ void SListpopFront(SL** pphead)
 	*pphead = temp->next;
 	free(temp);
 	temp = NULL;
+}
+
+SL* Find(SL* phead, ListType input)
+{
+	SL* pre = NULL;
+	SL* temp = phead;
+	while (temp != NULL)
+	{
+		if (temp->data == input)
+		{
+			if (temp == phead)
+			{
+				return temp;
+			}
+			return pre;
+		}
+		pre = temp->next;
+		temp = temp->next;
+	}
+	return NULL;
+}
+
+void AfterInsert(SL** pphead,SL* p, ListType input)
+{
+	if (p == NULL)
+	{
+		return;
+	}
+	SL* new = SListmalloc(input);
+	new->data = input;
+	new->next = p->next;
+	p->next = new;
 }
