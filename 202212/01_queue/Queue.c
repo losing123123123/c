@@ -25,9 +25,7 @@ void QueuePush(Queue* phead, int input)
 	{ 
 		phead->tail->next = temp;
 		phead->tail = temp;
-	}
-	
-	
+	}	
 }
 
 void QueuePop(Queue* phead)
@@ -59,7 +57,7 @@ bool QueueEmpty(Queue* phead)
 }
 
 
-void QueueDestroy( Queue* phead)
+void QueueDestroy(Queue* phead)
 {
 	assert(phead);
 	while (phead->head)
